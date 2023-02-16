@@ -1,4 +1,4 @@
-# poc-mobile-device
+# vue-detect-device
 
 ## Project setup
 ```
