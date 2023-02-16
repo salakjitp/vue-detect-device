@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="">
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -7,6 +7,39 @@
     <router-view />
   </div>
 </template>
+<script>
+/* eslint-disable */
+// eslint-disable-next-line
+export default {
+  name: "AppView",
+  metaInfo() {
+    return {
+      title: "test meta data with vue",
+      meta: [
+        {
+          vmid: "description",
+          name: "description",
+          content:
+            "hello world, this is an example of adding a description with vueMeta"
+        }
+      ],
+      // script: [
+      //   { src: '<LINK_SOURCR>', async: true, defer: true, body: true }
+      // ],
+			// link: [
+      //   {
+      //     rel: 'REL',
+      //     href: 'TAG_HREF'
+      //   }
+			// ]
+    };
+  },
+  created(){
+    const detected = navigator.userAgent
+    console.log("userAgent", detected)
+  }
+};
+</script>
 
 <style>
 #app {

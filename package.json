@@ -1,5 +1,5 @@
 {
-  "name": "poc-mobile-device",
+  "name": "vue-detect-device",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -26,6 +26,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
     "prettier": "^2.4.1",
+    "vue-meta": "^2.4.0",
     "vue-template-compiler": "^2.6.14"
   }
 }
